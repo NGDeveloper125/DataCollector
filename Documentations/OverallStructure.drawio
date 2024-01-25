@@ -1,0 +1,52 @@
+<mxfile host="65bd71144e">
+    <diagram id="2QJIb04ANKHxsIW4t9gh" name="Page-1">
+        <mxGraphModel dx="1444" dy="844" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="DataCollector" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=40;" vertex="1" parent="1">
+                    <mxGeometry x="265" y="10" width="320" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="any&lt;br style=&quot;font-size: 32px;&quot;&gt;UI" style="rhombus;whiteSpace=wrap;html=1;fontSize=32;fillColor=#FF6666;strokeColor=#b85450;gradientColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="20" y="180" width="170" height="170" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="" style="swimlane;startSize=0;fontSize=20;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#4E6BCC;swimlaneFillColor=#5E79FF;" vertex="1" parent="1">
+                    <mxGeometry x="230" y="100" width="390.5" height="610" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="DataCollector Shell" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="8">
+                    <mxGeometry x="88" width="215" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="" style="swimlane;startSize=0;fontSize=20;swimlaneFillColor=#0044FF;" vertex="1" parent="8">
+                    <mxGeometry y="60" width="390.5" height="370" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="DataCollector Domain" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="10">
+                    <mxGeometry x="79.5" width="230.5" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=5;fontSize=20;" edge="1" parent="10" source="5" target="12">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="Data&lt;br&gt;Structure&lt;br&gt;Builer" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="10">
+                    <mxGeometry x="115.25" y="50" width="160" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="Data&lt;br&gt;Validator" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="10">
+                    <mxGeometry x="115.25" y="230" width="160" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="StorageManager" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="8">
+                    <mxGeometry x="115.5" y="470" width="160" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=5;fontSize=20;" edge="1" parent="8" source="12" target="7">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=20;strokeWidth=5;dashed=1;" edge="1" parent="1" source="4" target="5">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="Any&lt;br&gt;DataBase" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;strokeColor=#BD7000;fontSize=20;gradientDirection=north;fillColor=#f0a30a;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="670" y="530" width="160" height="190" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=5;fontSize=20;dashed=1;" edge="1" parent="1" source="7" target="16">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
