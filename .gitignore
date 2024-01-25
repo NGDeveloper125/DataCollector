@@ -400,4 +400,5 @@ FodyWeavers.xsd
 #VSCode
 .vscode/
 *.user
-
+*.bin/
+*.obj/
