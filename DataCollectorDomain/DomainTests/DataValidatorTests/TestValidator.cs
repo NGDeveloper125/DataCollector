@@ -1,5 +1,6 @@
+using Domain.DataValidator;
 
-namespace Domain.DataValidator;
+namespace DomainTests.DataValidatorTests;
 
 public class TestValidator : IValidator
 {
